@@ -26,7 +26,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess === secretNumber) {
     message.textContent = "Correct! You Win 😎";
     number.textContent = secretNumber;
-    container.style.backgroundColor = "#8c2765";
+    container.style.backgroundColor = "#4e0d62";
 
     if (score > highestScore) {
       highestScore = score;
