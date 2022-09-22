@@ -8,7 +8,7 @@ let container = document.querySelector(".container");
 let button = document.querySelector(".btn");
 
 let secretNumber = Math.floor(Math.random() * 10) + 1;
-let score = 10;
+let score = 5;
 let highestScore = 0;
 
 // players guess input
@@ -48,7 +48,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
 // resets game
 document.querySelector(".again").addEventListener("click", function () {
-  score = 10;
+  score = 5;
   secretNumber = Math.floor(Math.random() * 10) + 1;
   currentScore.textContent = score;
   message.textContent = "Start Guessing...";
