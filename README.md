@@ -1,2 +1,5 @@
 # Guess My Number
- Number guessing game
+
+### Number Guessing Game
+
+![](./screenshot.png)
