@@ -3,8 +3,8 @@
   max-width: 800px;
   min-width: 600px;
   margin: 0 auto;
-  color: #d81fc5;
-  background-color: #0e0e27;
+  color: #40ff00;
+  background-color: #9500ff;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.4) 30px 30px 15px;
 }
@@ -27,7 +27,7 @@ header {
 
 main {
   height: 35vh;
-  color: #d81fc5;
+  color: #40ff00;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -97,8 +97,8 @@ h1 {
 
 .btn {
   border: none;
-  background-color: #d81fc5;
-  color: #222;
+  background-color: #40ff00;
+  color: #333;
   font-size: 2rem;
   font-family: inherit;
   padding: 20px 40px;
