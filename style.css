@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 90%;
-
+  min-width: 300px;
   color: #40ff00;
   background-color: #9500ff;
   border-radius: 20px;
@@ -93,4 +93,29 @@ h1 {
 
 .btn:hover {
   background-color: #ccc;
+}
+
+@media (min-width: 48em) {
+  .container {
+    max-width: 700px;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .between {
+    font-size: 2rem;
+  }
+
+  .right p {
+    margin: 15px;
+  }
+}
+
+@media (min-width: 60em) {
+  .container {
+  }
 }
