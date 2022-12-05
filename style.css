@@ -59,9 +59,6 @@ h1 {
   font-size: 1.4rem;
   text-align: center;
   margin-bottom: 40px;
-  /* position: absolute;
-  top: 2rem;
-  right: 2rem; */
 }
 
 .guess {
@@ -71,7 +68,7 @@ h1 {
   color: inherit;
   font-size: 45px;
   padding: 20px;
-  width: 80px;
+  width: 120px;
   text-align: center;
   margin-bottom: 2rem;
 }
