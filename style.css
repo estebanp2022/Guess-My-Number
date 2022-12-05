@@ -75,6 +75,7 @@ h1 {
 }
 
 .again {
+  margin-bottom: 0;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
