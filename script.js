@@ -20,7 +20,7 @@ document.querySelector(".check").addEventListener("click", function () {
 
   // when there is no input
   if (!guess) {
-    message.textContent = "Enter A Number First";
+    message.textContent = "Enter A Number";
 
     // when player wins
   } else if (guess === secretNumber) {
