@@ -42,11 +42,13 @@ body {
 .container {
   width: 90%;
   min-width: 300px;
-  color: #40ff00;
-  background-color: #9500ff;
-  /* border: 5px solid black; */
-  border-radius: 20px;
+  color: rebeccapurple;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 30px 30px 15px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 header {
@@ -54,7 +56,7 @@ header {
 }
 
 main {
-  color: #40ff00;
+  color: rebeccapurple;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -91,27 +93,29 @@ h1 {
 
 .guess {
   background: none;
-  border: 4px solid #eee;
   font-family: inherit;
   color: inherit;
   font-size: 45px;
   padding: 20px;
-  width: 120px;
+  width: 126px;
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .again {
-  margin-bottom: 0;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  width: 90%;
+  margin: 30px;
+}
+
+.guess,
+.btn {
+  border: 3px solid black;
+  border-radius: 10px;
 }
 
 .btn {
-  border: none;
-  background-color: #40ff00;
-  color: #333;
-  width: 100%;
+  background-color: rebeccapurple;
+  color: #fff;
   font-size: 2rem;
   font-family: inherit;
   padding: 10px 20px;
