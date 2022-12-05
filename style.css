@@ -26,6 +26,7 @@ header {
 }
 
 main {
+  border-radius: 20px;
   color: #40ff00;
   display: flex;
   align-items: center;
