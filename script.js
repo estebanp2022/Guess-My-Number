@@ -1,6 +1,5 @@
 "use strict";
 
-let number = document.querySelector(".number");
 let message = document.querySelector(".message");
 let currentScore = document.querySelector(".score");
 let bestScore = document.querySelector(".highscore");
@@ -25,8 +24,6 @@ document.querySelector(".check").addEventListener("click", function () {
     // when player wins
   } else if (guess === secretNumber) {
     message.textContent = "Correct! You Win 😎";
-    number.textContent = secretNumber;
-    container.style.backgroundColor = "#d700ff";
 
     if (score > highestScore) {
       highestScore = score;
@@ -52,7 +49,5 @@ document.querySelector(".again").addEventListener("click", function () {
   secretNumber = Math.floor(Math.random() * 10) + 1;
   currentScore.textContent = score;
   message.textContent = "Start Guessing...";
-  number.textContent = "?";
   document.querySelector(".guess").value = "";
-  document.querySelector(".container").style.backgroundColor = "#9500ff";
 });

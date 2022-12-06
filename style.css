@@ -43,6 +43,7 @@ body {
   width: 90%;
   min-width: 300px;
   color: rebeccapurple;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.4) 30px 30px 15px;
   background: rgba(255, 255, 255, 0.25);
@@ -78,6 +79,8 @@ main {
 
 .right {
   font-size: 1.5rem;
+  width: 200px;
+  text-align: center;
 }
 
 h1 {
@@ -103,8 +106,7 @@ h1 {
 }
 
 .again {
-  width: 90%;
-  margin: 30px;
+  width: 98%;
 }
 
 .guess,
@@ -126,22 +128,35 @@ h1 {
   background-color: #ccc;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 40em) {
   .container {
     max-width: 700px;
   }
   h1 {
     font-size: 4rem;
+    margin-bottom: 20px;
   }
   p {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .between {
+    margin-top: 0;
     font-size: 2rem;
   }
 
   .right p {
-    margin: 15px;
+    margin: 0;
+  }
+
+  .left {
+    width: 250px;
+  }
+
+  .right {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 250px;
   }
 }
